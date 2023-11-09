@@ -1,5 +1,5 @@
-name: arplayground
-description: A new Flutter project.
+name: LifeARgan
+description: 3D Organ View.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -39,6 +39,7 @@ dependencies:
   http: ^0.13.5
   google_fonts: ^4.0.3
   simple_animations: ^5.0.2
+  cached_network_image: ^3.3.0
 
 dev_dependencies:
   flutter_test:
@@ -64,17 +65,26 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     # - assets/models/F1.3mf
-    - assets/BB.png
-    - assets/medical/Dentist/lateral_pterygoids.glb
-    - assets/medical/Dentist/lymphatics_of_head_and_neck.glb
-    - assets/medical/Dentist/permanent_dentition.glb
-    - assets/medical/Dentist/primary_lower_left_canine_fdi_73.glb
-    - assets/medical/Dentist/primary_lower_left_first_molar_fdi_74.glb
-    - assets/medical/Dentist/primary_upper_left_canine_fdi_63.glb
-    - assets/medical/2283_-_chloe_franck_-_anatomy.glb
-    - assets/medical/female_anatomy_2.glb
-    - assets/medical/human_skeleton.glb
-    - assets/medical/x-ray_torso.glb
+    - assets/human.glb
+    - assets/Anatomical/abdomen.glb
+    - assets/Anatomical/female_pelvis.glb
+    - assets/Anatomical/hand.glb
+    - assets/Anatomical/human_thorax.glb
+    - assets/Anatomical/male_pelvis.glb
+    - assets/Anatomical/skeleton.glb
+    - assets/Anatomical/Skull.glb
+    - assets/Anatomical/spine.glb
+    - assets/Anatomical/teeth_model.glb
+    - assets/Organs/Arteries.glb
+    - assets/Organs/brain.glb
+    - assets/Organs/eye.glb
+    - assets/Organs/heart.glb
+    - assets/Organs/kidney.glb
+    - assets/Organs/lungs.glb
+    - assets/Organs/Uterus.glb
+    - assets/Systems/vision.glb
+    - assets/Systems/h_brain.glb
+    - assets/Systems/cns.glb
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
